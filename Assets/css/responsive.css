@@ -1,0 +1,215 @@
+@media only screen and (max-width: 1200px) {
+    .nav-item {
+        margin-left: 25px;
+    }
+
+    .Janaki-group-wrap {
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .Janaki-group-wrap-icon {
+        display: flex;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .slider-content-sent-wrap {
+        width: 73%;
+    }
+
+    .slider-content-sent-wrap h2 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+
+    .supply-left-content,
+    .stats {
+        text-align: center;
+    }
+
+    .stats {
+        margin-top: 20px;
+    }
+
+    .btn-center {
+        display: flex;
+        justify-content: center;
+    }
+
+    .left_sec_p {
+        margin-bottom: 20px;
+    }
+
+    .content {
+        margin-top: 30px;
+    }
+
+    .margin-top-space {
+        margin-top: 30px !important;
+    }
+
+    .our-item {
+        text-align: start;
+        padding: 0px;
+    }
+
+    .breeding-content {
+        margin-top: 20px;
+    }
+
+    .paragrap p {
+        margin-bottom: 0px;
+        font-size: 19px;
+        color: #fff;
+        font-family: 'Inter-Bold';
+        line-height: 30px;
+    }
+
+    .breeding-content-right {
+        margin-top: 20px;
+    }
+
+    .service-set {
+        flex-direction: column;
+    }
+
+    .service-set .normal-set {
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .slider-content-sent-wrap {
+        width: 70%;
+    }
+
+    .slider-content-sent-wrap h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .slider-content-sent-wrap p {
+        font-size: 16px;
+    }
+
+    .our-grid::before,
+    .our-grid::after,
+    .stats-grid::before,
+    .stats-grid::after {
+        content: '';
+        position: absolute;
+        background-color: #ddd;
+        display: none;
+    }
+
+    .our-grid,
+    .stats-grid {
+        display: block;
+        margin-top: 40px;
+    }
+
+    .our-grid,
+    .stats-item img {
+        margin-bottom: 10px;
+    }
+
+    .our-grid,
+    .stats-item {
+        text-align: center;
+        padding: 0px;
+        margin-top: 40px;
+    }
+
+    .footer-bottom-set {
+        flex-direction: column-reverse;
+    }
+
+    .supply-left-content,
+    .stats {
+        text-align: center;
+    }
+
+    .stats {
+        margin-top: 20px;
+    }
+
+    .btn-center {
+        display: flex;
+        justify-content: center;
+    }
+
+    .left_sec_p {
+        margin-bottom: 20px;
+    }
+
+    .col {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    .location-card {
+        display: block;
+    }
+
+    .margin-top-space {
+        margin-top: 30px !important;
+    }
+
+    .business-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .business-card img {
+        margin-bottom: 20px;
+    }
+
+    .our-item {
+        text-align: start;
+        padding: 0px;
+    }
+
+    .process-card {
+        text-align: center;
+    }
+
+    .breeding-content {
+        margin-top: 20px;
+    }
+
+    .Janaki-group-wrap-icon {
+        display: none;
+    }
+
+    .Janaki-group-wrap img {
+        display: none;
+    }
+
+    .slider-content-sent-wrap-inner h2 {
+        font-size: 34px;
+    }
+
+    .contact-num {
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .service-set {
+        flex-direction: column;
+    }
+
+    .service-set .normal-set {
+        padding: 0px;
+    }
+}
